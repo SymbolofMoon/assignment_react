@@ -15,7 +15,7 @@ function Login(){
 
         const item={username,password};
         console.log(item);
-        console.log("saving into database");
+        
         
         axios.post(apiUrl, item)  
           .then((result) => {  
@@ -41,7 +41,7 @@ function Login(){
       <br></br>
       <br />
       <button onClick={signIn} role="button" style={{ marginLeft: '500px'  }}  className="btn btn-primary"> Sign In </button>
-      
+      <Link className="btn btn-primary"  role="button" to="/register" > Sign Up </Link>
   
   
         
