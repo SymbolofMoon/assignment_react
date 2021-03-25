@@ -41,7 +41,7 @@ function Login(){
       <br></br>
       <br />
       <button onClick={signIn} role="button" style={{ marginLeft: '500px'  }}  className="btn btn-primary"> Sign In </button>
-      <Link className="btn btn-primary"  role="button" to="/register" > Sign Up </Link>
+      <Link className="btn btn-primary" style={{ marginLeft: '10px'  }}  role="button" to="/register" > Sign Up </Link>
   
   
         
